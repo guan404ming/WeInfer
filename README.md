@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repostory stores the source code of WeInfer, a Web-based LLM inference framework developed on the top of [WebLLM](https://github.com/mlc-ai/web-llm). WebLLM is designed in a WebGPU-centric approach to accelerate LLM inference within the browsers.
+This repostory stores the source code of WeInfer, a Web-based LLM inference framework developed on the top of [WebLLM](https://github.com/mlc-ai/web-llm). WeInfer is designed in a WebGPU-centric approach to accelerate LLM inference within the browsers.
 
 ![Overview](docs/framework_overview.png)
 
@@ -50,7 +50,7 @@ This repostory also provides prebuilt lib in the folder `built_lib/`, which is d
 
 ### Usage
 
-You can use the built WeInfer library like any other NPM package. We also provides a demo application in this repository. The folder `demo_page/` contains a demo page with all fundamental functionalities like loading models and executing inference for running LLM within browsers. 
+You can use the prebuilt WeInfer library like any other NPM package. We also provides a demo application in this repository. The folder `demo_page/` contains a demo page with all fundamental functionalities like loading models and executing inference for running LLM within browsers. 
 
 **Usage of Demo Application**
 
@@ -83,4 +83,4 @@ git clone https://huggingface.co/mlc-ai/SmolLM2-135M-Instruct-q0f32-MLC
 ```
 **More Models**
 
-To use more LLM models, modify `appConfig.model_list` in the file `demo_page/src/get_started.ts`, adding URL of your custom model and model lib in the MLC format.
+To use more LLM models, modify `appConfig.model_list` in the file `demo_page/src/get_started.ts`, adding URL of your custom model and model library in the MLC format in the corresponding folder.
