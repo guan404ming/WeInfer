@@ -2,3 +2,5 @@
 node_modules
 dist
 resolve/*
+*.pem
+*.crt
