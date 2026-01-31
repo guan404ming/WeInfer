@@ -50,9 +50,9 @@ class Engine {
     this.appConfig.model_list = [
       {
         // model: "https://huggingface.co/mlc-ai/Qwen2-1.5B-Instruct-q4f32_1-MLC",
-        model: `https://${this.modelServerUrl}/resolve/Qwen2-1.5B-Instruct-q4f32_1-MLC/`,
+        model: `http://${this.modelServerUrl}/resolve/Qwen2-1.5B-Instruct-q4f32_1-MLC/`,
         model_id: "Qwen2-1.5B-Instruct-q4f32_1-MLC",
-        model_lib: `https://${this.modelServerUrl}/wasm_libs/Qwen2-1.5B-Instruct-q4f32_1-ctx4k_cs1k-webgpu.wasm`,
+        model_lib: `http://${this.modelServerUrl}/wasm_libs/Qwen2-1.5B-Instruct-q4f32_1-ctx4k_cs1k-webgpu.wasm`,
         // model_lib:
         //   this.modelLibURLPrefix +
         //   this.modelVersion +
@@ -64,9 +64,9 @@ class Engine {
         },
       },
       {
-        model: `https://${this.modelServerUrl}/resolve/SmolLM-135M-Instruct-q0f32-MLC`,
+        model: `http://${this.modelServerUrl}/resolve/SmolLM-135M-Instruct-q0f32-MLC`,
         model_id: "SmolLM-135M-Instruct-q0f32-MLC",
-        model_lib: `https://${this.modelServerUrl}/wasm_libs/SmolLM-135M-Instruct-q0f32-ctx2k_cs1k-webgpu.wasm`,
+        model_lib: `http://${this.modelServerUrl}/wasm_libs/SmolLM-135M-Instruct-q0f32-ctx2k_cs1k-webgpu.wasm`,
         vram_required_MB: 629.38,
         low_resource_required: true,
         overrides: {
