@@ -4,3 +4,4 @@ dist
 resolve/*
 *.pem
 *.crt
+/demo_page/lib/*

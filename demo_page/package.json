@@ -15,7 +15,7 @@
     "url": "^0.11.3"
   },
   "dependencies": {
-    "@mlc-ai/web-llm-gpu-sample": "file:../built_lib/web-llm-origin/lib-gpu-sample",
+    "@mlc-ai/web-llm": "^0.2.80",
     "@mlc-ai/web-llm-ours-1x": "file:../built_lib/web-llm-ours/lib-all-1x",
     "@mlc-ai/web-llm-ours-nx-gpu-sample-reb": "file:../built_lib/web-llm-ours/lib-all-nx-gpu-sample-reb"
   }
